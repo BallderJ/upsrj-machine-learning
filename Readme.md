@@ -28,3 +28,4 @@ He desarrollado un script en Python que automatiza dos tareas principales:
 - **Numpy:** Para el procesamiento numérico y cálculos de almacenamiento.
 - **os & shutil:** Para la manipulación del sistema de archivos y movimiento de directorios.
 - **Entorno:** Ejecutado en **Ubuntu (WSL)** accediendo al sistema de archivos de Windows.
+..... 
