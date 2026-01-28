@@ -1,66 +1,77 @@
 import os
 import shutil
+import pandas as pd
+import numpy as np
+from datetime import datetime
 
-def organizar_descargas():
-    # 1. Detectar la carpeta de descargas en Ubuntu
-    home = os.path.expanduser("~")
-    nombres_posibles = ["Downloads", "Descargas"]
+def organizar_con_analisis():
+    # Ruta para tu WSL
     ruta_descargas = "/mnt/c/Users/yo_of/Downloads"
+    if not os.path.exists(ruta_descargas):
+        ruta_descargas = "/mnt/c/Users/yo_of/Descargas"
 
-    for nombre in nombres_posibles:
-        if os.path.exists(os.path.join(home, nombre)):
-            ruta_descargas = os.path.join(home, nombre)
-            break
-
-    if not ruta_descargas:
-        print("No se encontró la carpeta de descargas.")
-        return
-
-    # 2. Definir la Carpeta Principal de Organización
     carpeta_maestra = os.path.join(ruta_descargas, "Organizacion")
-    
     if not os.path.exists(carpeta_maestra):
         os.makedirs(carpeta_maestra)
-        print(f"Carpeta creada: {carpeta_maestra}")
 
-    print(f"--- Organizando archivos en: {carpeta_maestra} ---")
+    # Lista para recolectar datos para nuestro DataFrame
+    datos_archivos = []
 
-    # 3. Recorrer los archivos
+    print(f"--- Analizando y Organizando ---")
+
     for archivo in os.listdir(ruta_descargas):
-        ruta_completa_archivo = os.path.join(ruta_descargas, archivo)
+        ruta_origen = os.path.join(ruta_descargas, archivo)
 
-        # Solo procesar archivos (ignorar la propia carpeta 'Organizacion' y otras carpetas)
-        if os.path.isfile(ruta_completa_archivo):
+        if os.path.isfile(ruta_origen):
             nombre, extension = os.path.splitext(archivo)
-            
-            # Si el archivo no tiene extensión, lo saltamos
-            if not extension:
-                continue
-            
-            # Limpiar la extensión para el nombre de la carpeta (ej: .pdf -> PDF)
-            nombre_carpeta = extension.replace(".", "").upper()
-            
-            # Casos especiales: agrupar formatos similares si quieres
-            if nombre_carpeta in ["JPG", "JPEG", "PNG", "GIF", "SVG"]:
-                nombre_carpeta = "IMAGENES"
-            elif nombre_carpeta in ["DOC", "DOCX"]:
-                nombre_carpeta = "WORD"
-            elif nombre_carpeta in ["XLS", "XLSX"]:
-                nombre_carpeta = "EXCEL"
+            if not extension: continue
 
-            # 4. Crear la subcarpeta dentro de 'Organizacion'
-            ruta_subcarpeta = os.path.join(carpeta_maestra, nombre_carpeta)
-            if not os.path.exists(ruta_subcarpeta):
-                os.makedirs(ruta_subcarpeta)
+            # Obtener peso del archivo en bytes usando os
+            peso_bytes = os.path.getsize(ruta_origen)
+            # USAMOS NUMPY: Convertir a Megabytes y redondear
+            peso_mb = np.round(peso_bytes / (1024 * 1024), 2)
 
-            # 5. Mover el archivo
-            try:
-                shutil.move(ruta_completa_archivo, os.path.join(ruta_subcarpeta, archivo))
-                print(f"[OK] {archivo} -> Organizacion/{nombre_carpeta}/")
-            except Exception as e:
-                print(f"[ERROR] No se pudo mover {archivo}: {e}")
+            categoria = extension.replace(".", "").upper()
+            
+            # Clasificación personalizada
+            if categoria in ["JPG", "PNG", "GIF"]: categoria = "IMAGENES"
+            elif categoria in ["PDF"]: categoria = "DOCUMENTOS_PDF"
 
-    print("\n¡Limpieza completada con éxito!")
+            ruta_destino_folder = os.path.join(carpeta_maestra, categoria)
+            if not os.path.exists(ruta_destino_folder):
+                os.makedirs(ruta_destino_folder)
+
+            # Mover archivo
+            shutil.move(ruta_origen, os.path.join(ruta_destino_folder, archivo))
+
+            # GUARDAR DATOS PARA EL ANÁLISIS
+            datos_archivos.append({
+                "Nombre": archivo,
+                "Extension": extension.lower(),
+                "Categoria": categoria,
+                "Tamaño_MB": peso_mb,
+                "Fecha_Procesado": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            })
+
+    # --- USO DE PANDAS ---
+    if datos_archivos:
+        df = pd.DataFrame(datos_archivos)
+        
+        # Guardar el registro en un CSV dentro de la carpeta Organizacion
+        ruta_reporte = os.path.join(carpeta_maestra, "reporte_organizacion.csv")
+        df.to_csv(ruta_reporte, index=False)
+
+        # MOSTRAR ESTADÍSTICAS EN CONSOLA USANDO PANDAS Y NUMPY
+        print("\n" + "="*30)
+        print("RESUMEN DE OPERACIÓN (Pandas)")
+        print("="*30)
+        print(f"Total de archivos movidos: {len(df)}")
+        print(f"Espacio total organizado: {np.sum(df['Tamaño_MB'])} MB")
+        print("\nConteo por categoría:")
+        print(df['Categoria'].value_counts())
+        print(f"\nReporte guardado en: {ruta_reporte}")
+    else:
+        print("No había archivos nuevos para organizar.")
 
 if __name__ == "__main__":
-    organizar_descargas()
+    organizar_con_analisis()
