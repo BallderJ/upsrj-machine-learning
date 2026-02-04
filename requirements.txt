@@ -4,3 +4,4 @@ scipy
 stats
 matplotlib
 seaborn
+sicikit-learn
