@@ -1,6 +1,6 @@
-2026-02-03 19:57:06,544 [INFO] Archivo procesado: inputs/FuelConsumptionCo2.csv
-2026-02-03 19:57:06,546 [INFO] Variable independiente 'FUELCONSUMPTION_COMB':
-2026-02-03 19:57:06,549 [INFO] 
+2026-02-04 17:43:34,616 [INFO] Archivo procesado: inputs/FuelConsumptionCo2.csv
+2026-02-04 17:43:34,619 [INFO] Variable independiente 'FUELCONSUMPTION_COMB':
+2026-02-04 17:43:34,629 [INFO] 
 0        8.5
 1        9.6
 2        5.9
@@ -14,8 +14,8 @@
 1066    12.8
 Name: FUELCONSUMPTION_COMB, Length: 1067, dtype: float64
 
-2026-02-03 19:57:06,550 [INFO] Variable dependiente 'CO2EMISSIONS':
-2026-02-03 19:57:06,551 [INFO] 
+2026-02-04 17:43:34,630 [INFO] Variable dependiente 'CO2EMISSIONS':
+2026-02-04 17:43:34,630 [INFO] 
 0       196
 1       221
 2       136
@@ -29,8 +29,8 @@ Name: FUELCONSUMPTION_COMB, Length: 1067, dtype: float64
 1066    294
 Name: CO2EMISSIONS, Length: 1067, dtype: int64
 
-2026-02-03 19:57:06,554 [INFO] X de entrenamiento generado.
-2026-02-03 19:57:06,556 [DEBUG] 
+2026-02-04 17:43:34,670 [INFO] X de entrenamiento generado.
+2026-02-04 17:43:34,672 [DEBUG] 
 333      7.8
 106     12.7
 585      9.9
@@ -44,8 +44,8 @@ Name: CO2EMISSIONS, Length: 1067, dtype: int64
 860     17.3
 Name: FUELCONSUMPTION_COMB, Length: 853, dtype: float64
 
-2026-02-03 19:57:06,556 [INFO] X de pruebas generado.
-2026-02-03 19:57:06,557 [DEBUG] 
+2026-02-04 17:43:34,672 [INFO] X de pruebas generado.
+2026-02-04 17:43:34,673 [DEBUG] 
 732    13.2
 657     9.6
 168    12.8
@@ -59,8 +59,8 @@ Name: FUELCONSUMPTION_COMB, Length: 853, dtype: float64
 941    16.9
 Name: FUELCONSUMPTION_COMB, Length: 214, dtype: float64
 
-2026-02-03 19:57:06,557 [INFO] Y de entrenamiento generado.
-2026-02-03 19:57:06,558 [DEBUG] 
+2026-02-04 17:43:34,674 [INFO] Y de entrenamiento generado.
+2026-02-04 17:43:34,674 [DEBUG] 
 333     179
 106     292
 585     267
@@ -74,8 +74,8 @@ Name: FUELCONSUMPTION_COMB, Length: 214, dtype: float64
 860     398
 Name: CO2EMISSIONS, Length: 853, dtype: int64
 
-2026-02-03 19:57:06,558 [INFO] Y de pruebas generado.
-2026-02-03 19:57:06,558 [DEBUG] 
+2026-02-04 17:43:34,675 [INFO] Y de pruebas generado.
+2026-02-04 17:43:34,675 [DEBUG] 
 732    304
 657    221
 168    294
@@ -89,239 +89,298 @@ Name: CO2EMISSIONS, Length: 853, dtype: int64
 941    389
 Name: CO2EMISSIONS, Length: 214, dtype: int64
 
-2026-02-03 19:57:06,597 [DEBUG] Loaded backend tkagg version 8.6.
-2026-02-03 19:57:06,706 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,706 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,706 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,706 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,706 [DEBUG] STREAM b'IDAT' 78 1189
-2026-02-03 19:57:06,711 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,711 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,711 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,711 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,711 [DEBUG] STREAM b'IDAT' 78 2994
-2026-02-03 19:57:06,802 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,802 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,802 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,802 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,802 [DEBUG] STREAM b'IDAT' 78 374
-2026-02-03 19:57:06,805 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,805 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,805 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,805 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,805 [DEBUG] STREAM b'IDAT' 78 286
-2026-02-03 19:57:06,806 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,807 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,807 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,807 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,807 [DEBUG] STREAM b'IDAT' 78 263
-2026-02-03 19:57:06,809 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,810 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,810 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,810 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,810 [DEBUG] STREAM b'IDAT' 78 387
-2026-02-03 19:57:06,812 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,813 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,813 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,813 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,813 [DEBUG] STREAM b'IDAT' 78 436
-2026-02-03 19:57:06,815 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,815 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,815 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,815 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,815 [DEBUG] STREAM b'IDAT' 78 351
-2026-02-03 19:57:06,817 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:06,817 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:06,817 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:06,817 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:06,817 [DEBUG] STREAM b'IDAT' 78 364
-2026-02-03 19:57:06,831 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
-2026-02-03 19:57:06,831 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,831 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
-2026-02-03 19:57:06,831 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,831 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,832 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,832 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,832 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,832 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
-2026-02-03 19:57:06,832 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,832 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,833 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,834 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans-Italic[wdth,wght].ttf', name='Ubuntu Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-LI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf', name='Ubuntu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,835 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Italic[wdth,wght].ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono[wght].ttf', name='Ubuntu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-Italic[wght].ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,836 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono-Italic[wght].ttf', name='Ubuntu Sans Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-C.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-RI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,837 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-2026-02-03 19:57:06,925 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,926 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
-2026-02-03 19:57:06,927 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,928 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans-Italic[wdth,wght].ttf', name='Ubuntu Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-LI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf', name='Ubuntu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,929 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Italic[wdth,wght].ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,930 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,930 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono[wght].ttf', name='Ubuntu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,930 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-Italic[wght].ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,930 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-2026-02-03 19:57:06,931 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
-2026-02-03 19:57:06,931 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,931 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,932 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono-Italic[wght].ttf', name='Ubuntu Sans Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,932 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,932 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-C.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,933 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-2026-02-03 19:57:06,933 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,933 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,933 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-RI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-2026-02-03 19:57:06,933 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-2026-02-03 19:57:06,933 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-2026-02-03 19:57:09,979 [INFO] El modelo linear fue alimentado con 'X_train'.
-2026-02-03 19:57:09,979 [INFO] Intercept: 69.10302617988444
-2026-02-03 19:57:09,979 [INFO] Coefficient: 16.180900781199195
-2026-02-03 19:57:09,981 [INFO] MSE: 797.4346310097206
-2026-02-03 19:57:09,982 [INFO] R² 0.8071474868274242
-2026-02-03 19:57:10,098 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,098 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,098 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,099 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,099 [DEBUG] STREAM b'IDAT' 78 1189
-2026-02-03 19:57:10,114 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,114 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,114 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,114 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,115 [DEBUG] STREAM b'IDAT' 78 2994
-2026-02-03 19:57:10,261 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,261 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,262 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,262 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,262 [DEBUG] STREAM b'IDAT' 78 374
-2026-02-03 19:57:10,274 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,274 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,275 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,275 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,275 [DEBUG] STREAM b'IDAT' 78 286
-2026-02-03 19:57:10,283 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,283 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,284 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,284 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,284 [DEBUG] STREAM b'IDAT' 78 263
-2026-02-03 19:57:10,292 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,292 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,293 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,293 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,293 [DEBUG] STREAM b'IDAT' 78 387
-2026-02-03 19:57:10,303 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,304 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,304 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,304 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,304 [DEBUG] STREAM b'IDAT' 78 436
-2026-02-03 19:57:10,307 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,307 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,307 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,308 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,308 [DEBUG] STREAM b'IDAT' 78 351
-2026-02-03 19:57:10,311 [DEBUG] STREAM b'IHDR' 16 13
-2026-02-03 19:57:10,311 [DEBUG] STREAM b'sBIT' 41 4
-2026-02-03 19:57:10,311 [DEBUG] b'sBIT' 41 4 (unknown)
-2026-02-03 19:57:10,311 [DEBUG] STREAM b'pHYs' 57 9
-2026-02-03 19:57:10,311 [DEBUG] STREAM b'IDAT' 78 364
+2026-02-04 17:43:34,830 [DEBUG] Loaded backend tkagg version 8.6.
+2026-02-04 17:43:35,037 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,037 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,038 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,038 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,038 [DEBUG] STREAM b'IDAT' 78 1189
+2026-02-04 17:43:35,049 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,049 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,049 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,050 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,050 [DEBUG] STREAM b'IDAT' 78 2994
+2026-02-04 17:43:35,154 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,154 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,155 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,155 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,155 [DEBUG] STREAM b'IDAT' 78 374
+2026-02-04 17:43:35,159 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,159 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,160 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,160 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,160 [DEBUG] STREAM b'IDAT' 78 286
+2026-02-04 17:43:35,164 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,165 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,165 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,165 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,165 [DEBUG] STREAM b'IDAT' 78 263
+2026-02-04 17:43:35,169 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,169 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,169 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,169 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,169 [DEBUG] STREAM b'IDAT' 78 387
+2026-02-04 17:43:35,171 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,171 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,171 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,171 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,171 [DEBUG] STREAM b'IDAT' 78 436
+2026-02-04 17:43:35,173 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,173 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,173 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,173 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,173 [DEBUG] STREAM b'IDAT' 78 351
+2026-02-04 17:43:35,176 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:35,176 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:35,176 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:35,176 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:35,181 [DEBUG] STREAM b'IDAT' 78 364
+2026-02-04 17:43:35,216 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,217 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,218 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,219 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,228 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,229 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,229 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,229 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,230 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,230 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,231 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,231 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,231 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,231 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,232 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-02-04 17:43:35,232 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,232 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans-Italic[wdth,wght].ttf', name='Ubuntu Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-LI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf', name='Ubuntu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,233 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Italic[wdth,wght].ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono[wght].ttf', name='Ubuntu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-Italic[wght].ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,234 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono-Italic[wght].ttf', name='Ubuntu Sans Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-C.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-RI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,235 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2026-02-04 17:43:35,430 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2026-02-04 17:43:35,430 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,431 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,432 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,433 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,434 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans-Italic[wdth,wght].ttf', name='Ubuntu Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-LI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf', name='Ubuntu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,435 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Italic[wdth,wght].ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono[wght].ttf', name='Ubuntu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-Italic[wght].ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuSansMono-Italic[wght].ttf', name='Ubuntu Sans Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-C.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-02-04 17:43:35,436 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,437 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,437 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-RI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-02-04 17:43:35,437 [DEBUG] findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-02-04 17:43:35,437 [DEBUG] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/yo_of/workspace/upsrj-machine-learning/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2026-02-04 17:43:37,759 [INFO] El modelo linear fue alimentado con 'X_train'.
+2026-02-04 17:43:37,760 [INFO] Intercept: 69.10302617988444
+2026-02-04 17:43:37,761 [INFO] Coefficient: 16.180900781199195
+2026-02-04 17:43:37,770 [INFO] MSE: 797.4346310097206
+2026-02-04 17:43:37,784 [INFO] R² 0.8071474868274242
+2026-02-04 17:43:37,977 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:37,977 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:37,977 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:37,978 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:37,978 [DEBUG] STREAM b'IDAT' 78 1189
+2026-02-04 17:43:38,028 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,028 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,028 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,028 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,028 [DEBUG] STREAM b'IDAT' 78 2994
+2026-02-04 17:43:38,112 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,116 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,116 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,117 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,117 [DEBUG] STREAM b'IDAT' 78 374
+2026-02-04 17:43:38,118 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,119 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,119 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,119 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,119 [DEBUG] STREAM b'IDAT' 78 286
+2026-02-04 17:43:38,121 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,121 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,131 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,131 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,131 [DEBUG] STREAM b'IDAT' 78 263
+2026-02-04 17:43:38,134 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,134 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,134 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,134 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,135 [DEBUG] STREAM b'IDAT' 78 387
+2026-02-04 17:43:38,149 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,149 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,150 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,150 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,150 [DEBUG] STREAM b'IDAT' 78 436
+2026-02-04 17:43:38,198 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,198 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,199 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,199 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,199 [DEBUG] STREAM b'IDAT' 78 351
+2026-02-04 17:43:38,201 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:38,201 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:38,201 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:38,201 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:38,201 [DEBUG] STREAM b'IDAT' 78 364
+2026-02-04 17:43:41,096 [INFO] Intercep: 67.3483851836209
+2026-02-04 17:43:41,097 [INFO] Coefficient of 'ENGINESIZE' : 11.209439495558263
+2026-02-04 17:43:41,098 [INFO] Coefficient of 'CYLINDERS' : 7.155613809018341
+2026-02-04 17:43:41,099 [INFO] Coefficient of 'FUELCONSUMPTION_COMB' : 9.520811800573568
+2026-02-04 17:43:41,113 [INFO] MSE: 512.8551370148301
+2026-02-04 17:43:41,123 [INFO] R² 0.875970520691407
+2026-02-04 17:43:41,572 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,572 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,573 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,573 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,573 [DEBUG] STREAM b'IDAT' 78 1189
+2026-02-04 17:43:41,607 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,608 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,608 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,608 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,608 [DEBUG] STREAM b'IDAT' 78 2994
+2026-02-04 17:43:41,697 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,698 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,698 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,698 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,698 [DEBUG] STREAM b'IDAT' 78 374
+2026-02-04 17:43:41,700 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,700 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,700 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,700 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,701 [DEBUG] STREAM b'IDAT' 78 286
+2026-02-04 17:43:41,705 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,705 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,705 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,706 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,706 [DEBUG] STREAM b'IDAT' 78 263
+2026-02-04 17:43:41,709 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,710 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,710 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,710 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,710 [DEBUG] STREAM b'IDAT' 78 387
+2026-02-04 17:43:41,712 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,713 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,713 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,713 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,713 [DEBUG] STREAM b'IDAT' 78 436
+2026-02-04 17:43:41,715 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,715 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,715 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,715 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,716 [DEBUG] STREAM b'IDAT' 78 351
+2026-02-04 17:43:41,720 [DEBUG] STREAM b'IHDR' 16 13
+2026-02-04 17:43:41,720 [DEBUG] STREAM b'sBIT' 41 4
+2026-02-04 17:43:41,721 [DEBUG] b'sBIT' 41 4 (unknown)
+2026-02-04 17:43:41,721 [DEBUG] STREAM b'pHYs' 57 9
+2026-02-04 17:43:41,721 [DEBUG] STREAM b'IDAT' 78 364
+2026-02-04 17:43:46,218 [INFO] 
+                      MODELYEAR  ENGINESIZE  CYLINDERS  FUELCONSUMPTION_CITY  FUELCONSUMPTION_HWY  FUELCONSUMPTION_COMB
+MODELYEAR                   NaN         NaN        NaN                   NaN                  NaN                   NaN
+ENGINESIZE                  NaN    1.000000   0.934011              0.832225             0.778746              0.819482
+CYLINDERS                   NaN    0.934011   1.000000              0.796473             0.724594              0.776788
+FUELCONSUMPTION_CITY        NaN    0.832225   0.796473              1.000000             0.965718              0.995542
+FUELCONSUMPTION_HWY         NaN    0.778746   0.724594              0.965718             1.000000              0.985804
+FUELCONSUMPTION_COMB        NaN    0.819482   0.776788              0.995542             0.985804              1.000000
